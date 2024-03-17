@@ -17,3 +17,5 @@ Deque- A deque is a double-ended queue in which elements can be both inserted an
 
 #The core elements are- color detection ,tracking and SpeechRecgnition.
 
+![image](https://github.com/jigyasapal/AirCanvas/assets/123766930/8fd17c65-4be4-4836-9678-98ad0083af0a)
+
