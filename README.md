@@ -17,3 +17,28 @@ Deque- A deque is a double-ended queue in which elements can be both inserted an
 
 #The core elements are- color detection ,tracking and SpeechRecgnition.
 
+#🌐 Languages Involved in Your Code:
+1. Python 🐍
+The main programming language you wrote the code in.
+
+Used for logic, camera input, drawing on frames, handling UI, etc.
+
+2. C++ 💻 (Used Internally)
+OpenCV is a library originally written in C++, though you're using its Python bindings.
+
+Functions like cv2.line, cv2.imshow, and cv2.VideoCapture() actually call optimized C++ code in the background.
+
+That’s why it's super fast even for video processing.
+
+3. C++ & TensorFlow (for MediaPipe) 🧠⚙️
+MediaPipe, the hand-tracking library, is built in C++ and uses TensorFlow Lite models.
+
+Python only controls and accesses it.
+
+It runs machine learning models behind the scenes to detect your hand and fingers.
+
+4. CUDA (optional) ⚡
+If your system uses a GPU, OpenCV and MediaPipe can leverage CUDA (based on C/C++) to make everything faster.
+
+
+
